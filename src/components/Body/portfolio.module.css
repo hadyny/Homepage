@@ -1,0 +1,8 @@
+.portfolioImg {
+    border: 3px dotted #ddd;
+  }
+  
+.portfolioImg:hover {
+    border: 3px solid hsl(171, 100%, 41%);
+    cursor: pointer;
+  }
