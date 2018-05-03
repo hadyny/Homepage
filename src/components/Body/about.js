@@ -5,6 +5,7 @@ import {
   Subtitle, 
   Hero, 
   HeroHeader, 
+  HeroFooter,
   HeroBody, 
   Button, 
   Icon, 
@@ -15,7 +16,7 @@ let Link = Scroll.Link
 import aboutStyles from './about.module.css'
 
 export default () =>
-<Hero isColor="dark" hasTextAlign="centered" isFullHeight="true">
+    <Hero isColor="dark" hasTextAlign="centered" isFullHeight="true">
     <HeroHeader>
       <Container>
         <Title isSize="1" hasTextAlign="centered">About</Title>
@@ -38,6 +39,13 @@ export default () =>
       <p>
         I don't really have a lot of free time, but outside of work hours I love spending time with my family, running marathons, and being involved in church. If I find myself at a loose end you might also find me reading books.
       </p>
+      <HeroFooter>
+          <Container hasTextAlign="centered">
+            <p>
+              <Button isOutlined isColor="primary" href="/about">Find out more &raquo;</Button>
+            </p>
+        </Container>
+      </HeroFooter>
       </Container>
     </HeroBody>
   </Hero>

@@ -6,6 +6,7 @@ import {
     Hero, 
     HeroHeader, 
     HeroBody,
+    HeroFooter,
     Column,
     Columns,
     Button,
@@ -70,6 +71,13 @@ class Portfolio extends React.Component {
                 </Columns>
                 </Container>
             </HeroBody>
+            <HeroFooter>
+                <Container hasTextAlign="centered">
+                    <p>
+                    <Button isOutlined isColor="primary" href="/portfolio">Overview &raquo;</Button>
+                    </p>
+                </Container>
+            </HeroFooter>
             </Hero>
 
             <Modal className="drinkingintervention" isActive={this.state.visibleModal == 1}>
