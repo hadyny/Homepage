@@ -19,7 +19,7 @@ export default () =>
     <Hero isColor="dark" hasTextAlign="centered" isFullHeight="true">
     <HeroHeader>
       <Container>
-        <Title isSize="1" hasTextAlign="centered">About</Title>
+        <Title isSize="1" hasTextAlign="centered">Hadyn</Title>
         <Subtitle isSize="3" hasTextAlign="centered" hasTextColor="success">/*&nbsp;Who am I?&nbsp;*/</Subtitle>
       </Container>
     </HeroHeader>
@@ -42,7 +42,7 @@ export default () =>
       <HeroFooter>
           <Container hasTextAlign="centered">
             <p>
-              <Button isOutlined isColor="primary" href="/about">Find out more &raquo;</Button>
+              <Button className={aboutStyles.backButton} isOutlined isColor="primary" href="/about">Find out more &raquo;</Button>
             </p>
         </Container>
       </HeroFooter>

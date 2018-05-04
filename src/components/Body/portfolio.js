@@ -74,7 +74,7 @@ class Portfolio extends React.Component {
             <HeroFooter>
                 <Container hasTextAlign="centered">
                     <p>
-                    <Button isOutlined isColor="primary" href="/portfolio">Overview &raquo;</Button>
+                        <Button isOutlined isColor="primary" href="/portfolio">Overview &raquo;</Button>
                     </p>
                 </Container>
             </HeroFooter>

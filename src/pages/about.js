@@ -1,13 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import {Columns,Column,Container,Button,Title,Progress,Subtitle} from 'bloomer'
-import './about.module.sass'
+import aboutStyles from './about.module.sass'
 
 export default () =>
-    <Container>
+    <Container style={{ margin: "20px"}}>
         <Columns>
             <Column isSize="1/2" isOffset="1/4">
-                <Button isOutlined isColor="primary" href="/">&laquo; Back</Button>
+                <Button className={aboutStyles.backButton} isOutlined isColor="primary" href="/">&laquo; Back</Button>
+                <hr />
                 <Title isSize={1}>Education</Title>
                 <dl>
                     <dt>University of Otago</dt>
@@ -55,7 +56,7 @@ export default () =>
                     <li>Knockout <Progress isColor="warning" value={50} max={100} /></li>
                     <li>AngularJS <Progress isColor="warning" value={40} max={100} /></li> 
                 </ul>
-
+                <hr />
                 <Button isOutlined isColor="primary" href="/">&laquo; Back</Button>
             </Column>
         </Columns>
