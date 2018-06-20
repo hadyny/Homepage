@@ -34,6 +34,12 @@ export default () =>
       <Subtitle isSize="2" hasTextAlign="centered">Find me online:</Subtitle>
       <Level>
         <LevelItem>
+          <Button href="https://www.linkedin.com/hadyny" className={ contactStyles.contact_button }>
+              <span><Icon className="fa fa-linkedin" /></span>
+              <span style={{ marginLeft: '10px'}}>Linked In</span>
+          </Button>
+        </LevelItem>
+        <LevelItem>
           <Button href="https://www.twitter.com/_hadyny_" className={ contactStyles.contact_button }>
               <span><Icon className="fa fa-twitter" /></span>
               <span style={{ marginLeft: '10px'}}>Twitter</span>
