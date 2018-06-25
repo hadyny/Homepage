@@ -33,8 +33,8 @@ export default () =>
         feel free to <Link to="contact" spy={true} smooth={true} duration={350}>contact</Link> me and I'd be keen to help out.
       </p>
       <p>
-        I specialize in back-end development mainly, but my experience includes: SQL Server, C# .NET, Web Forms, MVC, Web API, Entity Framework, jQuery, Knockout, a bit of Angular and React, LESS/SASS, Bootstrap, and Bulma. I have also been known to dabble in
-        PHP/MySQL at times, but only if I have to.
+        I love coding at both the back and front end, and my experience includes: SQL Server, C# .NET, Web Forms, MVC, Web API, Entity Framework, jQuery, Knockout, a bit of Angular and React, LESS/SASS, Bootstrap, and Bulma. I have also been known to dabble in
+        PHP and MySQL at times.
       </p>
       <p>
         I don't really have a lot of free time, but outside of work hours I love spending time with my family, running marathons, and being involved in church. If I find myself at a loose end you might also find me reading books.
