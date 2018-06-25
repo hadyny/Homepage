@@ -33,26 +33,26 @@ export default () =>
                 <Subtitle isSize={3}>Strong in:</Subtitle>
                 <ul>
                     <li>HTML <Progress isColor="primary" value={85} max={100} /></li>
-                    <li>C# .NET <Progress isColor="primary" value={80} max={100} /></li>
-                    <li>MVC <Progress isColor="primary" value={80} max={100} /></li>
-                    <li>Web API <Progress isColor="primary" value={80} max={100} /></li>
+                    <li>Javascript <Progress isColor="info" value={80} max={100} /></li>
                     <li>Bootstrap <Progress isColor="primary" value={80} max={100} /></li>
-                    <li>Entity Framework <Progress isColor="primary" value={75} max={100} /></li>
+                    <li>C# <Progress isColor="primary" value={80} max={100} /></li>
+                    <li>MVC <Progress isColor="primary" value={80} max={100} /></li>
+                    <li>MySQL <Progress isColor="warning" value={75} max={100} /></li>
                     <li>SQL Server <Progress isColor="primary" value={75} max={100} /></li>
                 </ul>
                 <Subtitle isSize={3}>Familiar with:</Subtitle>
                 <ul>
+                <li>jQuery <Progress isColor="info" value={70} max={100} /></li>
+                    <li>Entity Framework <Progress isColor="primary" value={70} max={100} /></li>
                     <li>Bulma <Progress isColor="info" value={70} max={100} /></li>
-                    <li>jQuery <Progress isColor="info" value={70} max={100} /></li>
-                    <li>Javascript <Progress isColor="info" value={65} max={100} /></li>
                     <li>LESS <Progress isColor="info" value={65} max={100} /></li>
                     <li>SASS <Progress isColor="info" value={60} max={100} /></li>
+                    <li>Web API <Progress isColor="primary" value={60} max={100} /></li>
                     <li>React <Progress isColor="info" value={55} max={100} /></li>
                 </ul>
                 <Subtitle isSize={3}>Knowledge of:</Subtitle>
                 <ul>
                     <li>PHP <Progress isColor="warning" value={50} max={100} /></li>
-                    <li>MySQL <Progress isColor="warning" value={50} max={100} /></li>
                     <li>Knockout <Progress isColor="warning" value={50} max={100} /></li>
                     <li>AngularJS <Progress isColor="warning" value={40} max={100} /></li> 
                 </ul>
