@@ -7,11 +7,12 @@
     "bloomer": "^0.6.3",
     "bulma": "^0.6.2",
     "font-awesome": "^4.7.0",
-    "gatsby": "^1.9.241",
+    "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
-    "gatsby-plugin-sass": "1.0.19",
-    "react-helmet": "^5.2.0"
+    "gatsby-plugin-sass": "^1.0.26",
+    "react-helmet": "^5.2.0",
+    "react-scroll": "^1.7.10"
   },
   "keywords": [
     "gatsby"

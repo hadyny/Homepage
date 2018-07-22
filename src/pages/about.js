@@ -52,6 +52,7 @@ export default () =>
                 </ul>
                 <Subtitle isSize={3}>Knowledge of:</Subtitle>
                 <ul>
+                    <li>Ruby <Progress isColor="warning" value={50} max={100} /></li>
                     <li>PHP <Progress isColor="warning" value={50} max={100} /></li>
                     <li>Knockout <Progress isColor="warning" value={50} max={100} /></li>
                     <li>AngularJS <Progress isColor="warning" value={40} max={100} /></li> 
