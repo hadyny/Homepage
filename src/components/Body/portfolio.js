@@ -20,6 +20,12 @@ import {
    } from 'bloomer'
 
 import portfolioStyles from './portfolio.module.css'
+import drinkingThumbnail from '../../img/drinkingintervention.jpg';
+import animalDbThumbnail from '../../img/animaldb.jpg';
+import kiwifruitThumbnail from '../../img/kiwifruit.jpg';
+import productChoicesThumbnail from '../../img/productchoices.jpg';
+import prpThumbnail from '../../img/prp.jpg';
+import stroopThumbnail from '../../img/stroop.jpg';
 
 class Portfolio extends React.Component {
     constructor(props) {
@@ -51,22 +57,22 @@ class Portfolio extends React.Component {
                 <Container>
                 <Columns isCentered isMobile isMultiline>
                     <Column isSize="narrow">
-                    <img id="drinkingintervention" onClick={() => this.showModal(1)} className={portfolioStyles.portfolioImg} src="https://web.psy.otago.ac.nz/_img/drinkingintervention.jpg" alt="Drinking Intervention Study" />
+                    <img id="drinkingintervention" onClick={() => this.showModal(1)} className={portfolioStyles.portfolioImg} src={drinkingThumbnail} alt="Drinking Intervention Study" />
                     </Column>
                     <Column isSize="narrow">
-                    <img id="animaldatabase" onClick={() => this.showModal(2)} className={portfolioStyles.portfolioImg} src="https://web.psy.otago.ac.nz/_img/animaldb.jpg" alt="The Animal Database" />
+                    <img id="animaldatabase" onClick={() => this.showModal(2)} className={portfolioStyles.portfolioImg} src={animalDbThumbnail} alt="The Animal Database" />
                     </Column>
                     <Column isSize="narrow">
-                    <img id="kiwifruit" onClick={() => this.showModal(3)} className={portfolioStyles.portfolioImg} src="https://web.psy.otago.ac.nz/_img/kiwifruit.jpg" alt="Kiwifruit Study" />
+                    <img id="kiwifruit" onClick={() => this.showModal(3)} className={portfolioStyles.portfolioImg} src={kiwifruitThumbnail} alt="Kiwifruit Study" />
                     </Column>
                     <Column isSize="narrow">
-                    <img id="productchoices" onClick={() => this.showModal(4)} className={portfolioStyles.portfolioImg} src="https://web.psy.otago.ac.nz/_img/productchoices.jpg" alt="Product Choices Study" />
+                    <img id="productchoices" onClick={() => this.showModal(4)} className={portfolioStyles.portfolioImg} src={productChoicesThumbnail} alt="Product Choices Study" />
                     </Column>
                     <Column isSize="narrow">
-                    <img id="prp" onClick={() => this.showModal(5)} className={portfolioStyles.portfolioImg} src="https://web.psy.otago.ac.nz/_img/prp.jpg" alt="Paid Research Participation" />
+                    <img id="prp" onClick={() => this.showModal(5)} className={portfolioStyles.portfolioImg} src={prpThumbnail} alt="Paid Research Participation" />
                     </Column>
                     <Column isSize="narrow">
-                    <img id="stroop" onClick={() => this.showModal(6)} className={portfolioStyles.portfolioImg} src="https://web.psy.otago.ac.nz/_img/stroop.jpg" alt="Numerical Stroop Test" />
+                    <img id="stroop" onClick={() => this.showModal(6)} className={portfolioStyles.portfolioImg} src={stroopThumbnail} alt="Numerical Stroop Test" />
                     </Column>
                 </Columns>
                 </Container>

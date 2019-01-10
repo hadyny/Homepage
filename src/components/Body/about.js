@@ -14,6 +14,7 @@ import {
 import Scroll from 'react-scroll'
 let Link = Scroll.Link
 import aboutStyles from './about.module.css'
+import profilePicture from '../../img/profile.jpg';
 
 export default () =>
     <Hero isColor="dark" hasTextAlign="centered" isFullHeight="true">
@@ -25,7 +26,7 @@ export default () =>
     </HeroHeader>
     <HeroBody>
       <Container hasTextAlign="left">
-        <img className={aboutStyles.profile} src="https://web.psy.otago.ac.nz/_img/profile.jpg?" alt="Profile Picture" />
+        <img className={aboutStyles.profile} src={profilePicture} alt="Profile Picture" />
         <p>Hi there, I'm Hadyn. I'm a full stack web developer living in Dunedin, New Zealand. I love making life easier for people through technology, specifically the web. I currently work at the <a href="https://www.otago.ac.nz" target="_blank">University of Otago</a>,
         in the <a href="https://www.otago.ac.nz/psychology" target="_blank">Psychology Department</a>, writing software to aid in post-graduate research.
       </p>
